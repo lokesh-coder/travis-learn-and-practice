@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commitmsg": "commitlint --from=$(git rev-parse --abbrev-ref --symbolic-full-name @{u}) --to=HEAD",
+    "commitmsg": "commitlint -E GIT_PARAMS",
     "build:prod": "tsc",
     "dev:watch": "tsc --watch"
   },
