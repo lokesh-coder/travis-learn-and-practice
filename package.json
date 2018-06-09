@@ -5,10 +5,9 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "commitmsg": "node shell.js",
+    "commitmsg": "commitlint --from=$(git rev-parse --abbrev-ref --symbolic-full-name @{u}) --to=HEAD",
     "build:prod": "tsc",
-    "dev:watch": "tsc --watch",
-    "shell": "node shell.js"
+    "dev:watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
