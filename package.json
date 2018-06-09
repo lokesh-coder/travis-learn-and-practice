@@ -1,0 +1,33 @@
+{
+  "name": "travis-learn-and-practice",
+  "version": "0.0.0-beta.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commitmsg": "node shell.js",
+    "build:prod": "tsc",
+    "dev:watch": "tsc --watch",
+    "shell": "node shell.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lokesh-coder/travis-learn-and-practice.git"
+  },
+  "author": "lokesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lokesh-coder/travis-learn-and-practice/issues"
+  },
+  "homepage": "https://github.com/lokesh-coder/travis-learn-and-practice#readme",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^7.0.0",
+    "@commitlint/config-conventional": "^7.0.1",
+    "@commitlint/travis-cli": "^7.0.0",
+    "git-current-branch": "^1.0.3",
+    "husky": "^0.14.3",
+    "shelljs": "^0.8.2"
+  },
+  "dependencies": {}
+}
