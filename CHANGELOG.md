@@ -2,6 +2,16 @@
 # [0.0.0-beta.13](https://github.com/lokesh-coder/travis-learn-and-practice/compare/v0.0.0-beta.12...v0.0.0-beta.13) (2018-06-10)
 
 
+### Features
+
+* description change ([e04e494](https://github.com/lokesh-coder/travis-learn-and-practice/commit/e04e494))
+
+
+
+<a name="0.0.0-beta.13"></a>
+# [0.0.0-beta.13](https://github.com/lokesh-coder/travis-learn-and-practice/compare/v0.0.0-beta.12...v0.0.0-beta.13) (2018-06-10)
+
+
 
 <a name="0.0.0-beta.11"></a>
 # [0.0.0-beta.11](https://github.com/lokesh-coder/travis-learn-and-practice/compare/v0.0.0-beta.10...v0.0.0-beta.11) (2018-06-10)
