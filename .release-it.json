@@ -11,7 +11,7 @@
   "src": {
     "tagName": "v%s",
     "push": false,
-    "afterReleaseCommand":"git checkout master && git push https://$GITHUB_TOKEN@github.com/lokesh-coder/travis-learn-and-practice.git HEAD:master",
+    "afterReleaseCommand":"git push https://$GITHUB_TOKEN@github.com/lokesh-coder/travis-learn-and-practice.git HEAD:master",
     "commitMessage": "chore: version bumbed to v%s",
     "tagAnnotation": "v%s",
     "addUntrackedFiles": true
