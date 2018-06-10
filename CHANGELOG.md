@@ -1,3 +1,8 @@
+<a name="0.0.0-beta.16"></a>
+# [0.0.0-beta.16](https://github.com/lokesh-coder/travis-learn-and-practice/compare/v0.0.0-beta.15...v0.0.0-beta.16) (2018-06-10)
+
+
+
 <a name="0.0.0-beta.15"></a>
 # [0.0.0-beta.15](https://github.com/lokesh-coder/travis-learn-and-practice/compare/v0.0.0-beta.14...v0.0.0-beta.15) (2018-06-10)
 
