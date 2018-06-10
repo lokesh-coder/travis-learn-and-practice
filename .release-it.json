@@ -1,4 +1,5 @@
 {
+  "pkgFiles": ["package.json"],
   "non-interactive": true,
   "verbose": true,
   "increment": "conventional:angular",
@@ -9,10 +10,12 @@
   "requireCleanWorkingDir": false,
   "requireUpstream": false,
   "src": {
-    "tagName": "v%s"
+    "tagName": "v%s",
+    "push": false
   },
   "github": {
-    "release": true
+    "release": true,
+    "preRelease": true
   },
   "npm": {
     "publish": false

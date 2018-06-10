@@ -9,7 +9,7 @@
     "build:prod": "tsc",
     "dev:watch": "tsc --watch",
     "webpack": "webpack --config webpack.config.js",
-    "release": "release-it --debug"
+    "release": "release-it --preRelease=beta"
   },
   "repository": {
     "type": "git",
