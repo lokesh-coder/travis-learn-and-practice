@@ -1,5 +1,19 @@
 language: node_js
+node_js:
+  - "9"
 before_script:
   - "npm install --global typescript"
 script:
-  - commitlint-travis
+  - "npm run test"
+after_success:
+  - "npm run webpack"
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local_dir: dist/
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+cache:
+  directories:
+  - node_modules

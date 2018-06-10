@@ -1,2 +1,4 @@
 /* empty function */
-const helloTravis = () => {};
+export const helloTravis = () => {
+  return "hello";
+};
