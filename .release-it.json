@@ -13,7 +13,7 @@
     "tagName": "v%s",
     "push": true,
     "pushRepo":
-      "https://lokesh-coder:$GITHUB_TOKEN@github.com/lokesh-coder/travis-learn-and-practice",
+      "https://lokesh-coder:$GITHUB_TOKEN@github.com/lokesh-coder/travis-learn-and-practice"
   },
   "github": {
     "release": true,
