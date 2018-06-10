@@ -7,6 +7,7 @@
   "changelogCommand": "conventional-changelog -p angular | tail -n +3",
   "preReleaseId": "beta",
   "requireCleanWorkingDir": false,
+  "requireUpstream": false,
   "src": {
     "tagName": "v%s"
   },
