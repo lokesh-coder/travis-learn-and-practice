@@ -11,8 +11,8 @@
   "requireUpstream": false,
   "src": {
     "tagName": "v%s",
-    "push": true,
-    "pushRepo":"https://$GITHUB_TOKEN@github.com/lokesh-coder/travis-learn-and-practice.git > /dev/null 2>&1"
+    "push": false,
+    "afterReleaseCommand":"git push https://$GITHUB_TOKEN@github.com/lokesh-coder/travis-learn-and-practice.git >/dev/null 2>&1"
   },
   "github": {
     "release": true,
