@@ -14,7 +14,7 @@
     "push": false,
     "afterReleaseCommand":"git push https://$GITHUB_TOKEN@github.com/lokesh-coder/travis-learn-and-practice.git HEAD:master --force",
     "commitMessage": "chore: version bumbed to v%s [skip ci]",
-    "tagAnnotation": "v%s",
+    "tagAnnotation": "v%s"
   },
   "github": {
     "release": true,
