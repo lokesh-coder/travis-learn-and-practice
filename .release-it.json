@@ -18,7 +18,8 @@
   },
   "github": {
     "release": true,
-    "preRelease": true
+    "preRelease": true,
+     "releaseName": "v%s"
   },
   "npm": {
     "publish": false
