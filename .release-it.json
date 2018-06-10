@@ -1,5 +1,6 @@
 {
   "non-interactive": true,
+  "verbose": true,
   "increment": "conventional:angular",
   "beforeChangelogCommand":
     "conventional-changelog -p angular -i CHANGELOG.md -s",
