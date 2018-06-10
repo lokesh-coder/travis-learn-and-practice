@@ -12,7 +12,9 @@
   "src": {
     "tagName": "v%s",
     "push": false,
-    "afterReleaseCommand":"git push https://$GITHUB_TOKEN@github.com/lokesh-coder/travis-learn-and-practice.git HEAD:master --force"
+    "afterReleaseCommand":"git push https://$GITHUB_TOKEN@github.com/lokesh-coder/travis-learn-and-practice.git HEAD:master --force",
+    "commitMessage": "chore: version bumbed to v%s",
+    "tagAnnotation": "v%s",
   },
   "github": {
     "release": true,
