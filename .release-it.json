@@ -8,6 +8,7 @@
   "preReleaseId": "beta",
   "requireCleanWorkingDir": false,
   "requireUpstream": false,
+  "safeBump": false,
   "src": {
     "tagName": "v%s",
     "push": false,
