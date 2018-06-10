@@ -1,3 +1,15 @@
+<a name="0.0.0-beta.17"></a>
+# [0.0.0-beta.17](https://github.com/lokesh-coder/travis-learn-and-practice/compare/v0.0.0-beta.16...v0.0.0-beta.17) (2018-06-10)
+
+
+### Features
+
+* template change ([e4e9c53](https://github.com/lokesh-coder/travis-learn-and-practice/commit/e4e9c53))
+* template title change ([c7e1a43](https://github.com/lokesh-coder/travis-learn-and-practice/commit/c7e1a43))
+* template update ([3265948](https://github.com/lokesh-coder/travis-learn-and-practice/commit/3265948))
+
+
+
 <a name="0.0.0-beta.16"></a>
 # [0.0.0-beta.16](https://github.com/lokesh-coder/travis-learn-and-practice/compare/v0.0.0-beta.15...v0.0.0-beta.16) (2018-06-10)
 
