@@ -2,7 +2,6 @@
   "pkgFiles": ["package.json"],
   "non-interactive": true,
   "verbose": true,
-  "increment": "patch",
   "beforeChangelogCommand":
     "conventional-changelog -p angular -i CHANGELOG.md -s",
   "changelogCommand": "conventional-changelog -p angular | tail -n +3",
