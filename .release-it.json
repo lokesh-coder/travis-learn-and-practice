@@ -12,7 +12,7 @@
   "src": {
     "tagName": "v%s",
     "push": false,
-    "afterReleaseCommand":"git push https://$GITHUB_TOKEN@github.com/lokesh-coder/travis-learn-and-practice.git >/dev/null 2>&1"
+    "afterReleaseCommand":"git push https://$GITHUB_TOKEN@github.com/lokesh-coder/travis-learn-and-practice.git"
   },
   "github": {
     "release": true,
