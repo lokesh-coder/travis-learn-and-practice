@@ -14,7 +14,6 @@
     "push": true,
     "pushRepo":
       "https://lokesh-coder:$GITHUB_TOKEN@github.com/lokesh-coder/travis-learn-and-practice",
-    "pushArgs": "master &2>/dev/null -f -q "
   },
   "github": {
     "release": true,
