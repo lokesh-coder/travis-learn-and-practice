@@ -11,7 +11,9 @@
   "requireUpstream": false,
   "src": {
     "tagName": "v%s",
-    "push": true
+    "push": true,
+    "pushRepo":
+      "https://${GITHUB_TOKEN}@github.com/lokesh-coder/travis-learn-and-practice.git"
   },
   "github": {
     "release": true,
