@@ -11,7 +11,7 @@
   "requireUpstream": false,
   "src": {
     "tagName": "v%s",
-    "push": false
+    "push": true
   },
   "github": {
     "release": true,
