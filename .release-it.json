@@ -1,9 +1,7 @@
 {
-  "pkgFiles": ["package.json"],
   "non-interactive": true,
-  "verbose": true,
-  "beforeChangelogCommand":
-    "conventional-changelog -p angular -i CHANGELOG.md -s",
+  "verbose": false,
+  "beforeChangelogCommand":"conventional-changelog -p angular -i CHANGELOG.md -s",
   "changelogCommand": "conventional-changelog -p angular | tail -n +3",
   "preReleaseId": "beta",
   "requireCleanWorkingDir": false,
@@ -20,7 +18,7 @@
   "github": {
     "release": true,
     "preRelease": true,
-     "releaseName": "v%s"
+    "releaseName": "v%s"
   },
   "npm": {
     "publish": false
