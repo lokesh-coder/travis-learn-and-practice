@@ -3,8 +3,8 @@
   "verbose": true,
   "increment": "conventional:angular",
   "beforeChangelogCommand":
-    "npx conventional-changelog -p angular -i CHANGELOG.md -s",
-  "changelogCommand": "npx conventional-changelog -p angular | tail -n +3",
+    "conventional-changelog -p angular -i CHANGELOG.md -s",
+  "changelogCommand": "conventional-changelog -p angular | tail -n +3",
   "preReleaseId": "beta",
   "requireCleanWorkingDir": false,
   "requireUpstream": false,
