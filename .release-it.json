@@ -2,7 +2,8 @@
   "non-interactive": true,
   "verbose": true,
   "increment": "conventional:angular",
-  "beforeChangelogCommand":"conventional-changelog -p angular -i CHANGELOG.md -s",
+  "beforeChangelogCommand":
+    "conventional-changelog -p angular -i CHANGELOG.md -s",
   "changelogCommand": "conventional-changelog -p angular | tail -n +3",
   "preReleaseId": "beta",
   "requireCleanWorkingDir": false,
@@ -11,8 +12,9 @@
   "src": {
     "tagName": "v%s",
     "push": false,
-    "afterReleaseCommand":"git push https://$GITHUB_TOKEN@github.com/lokesh-coder/travis-learn-and-practice.git HEAD:master",
-    "commitMessage": "chore: version bumbed to v%s [skip ci]",
+    "afterReleaseCommand":
+      "git push https://$GITHUB_TOKEN@github.com/lokesh-coder/travis-learn-and-practice.git HEAD:master",
+    "commitMessage": "chore: version bumbed to v%s",
     "tagAnnotation": "v%s",
     "addUntrackedFiles": true
   },
