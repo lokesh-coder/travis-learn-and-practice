@@ -6,6 +6,8 @@ before_script:
 script:
   - "npm run test"
 after_success:
+   - test $TRAVIS_BRANCH = "master" && test $TRAVIS_PULL_REQUEST = "false" && npm run release
+before_deploy:
   - "npm run webpack"
 deploy:
   provider: pages
@@ -17,3 +19,6 @@ deploy:
 cache:
   directories:
   - node_modules
+branches:
+  only:
+    - master
