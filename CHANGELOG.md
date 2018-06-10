@@ -1,3 +1,18 @@
+<a name="0.0.0-beta.16"></a>
+# [0.0.0-beta.16](https://github.com/lokesh-coder/travis-learn-and-practice/compare/v0.0.0-beta.15...v0.0.0-beta.16) (2018-06-10)
+
+
+
+<a name="0.0.0-beta.15"></a>
+# [0.0.0-beta.15](https://github.com/lokesh-coder/travis-learn-and-practice/compare/v0.0.0-beta.14...v0.0.0-beta.15) (2018-06-10)
+
+
+
+<a name="0.0.0-beta.14"></a>
+# [0.0.0-beta.14](https://github.com/lokesh-coder/travis-learn-and-practice/compare/v0.0.0-beta.13...v0.0.0-beta.14) (2018-06-10)
+
+
+
 <a name="0.0.0-beta.13"></a>
 # [0.0.0-beta.13](https://github.com/lokesh-coder/travis-learn-and-practice/compare/v0.0.0-beta.12...v0.0.0-beta.13) (2018-06-10)
 
