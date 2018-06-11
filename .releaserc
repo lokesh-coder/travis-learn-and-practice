@@ -4,7 +4,8 @@
     "@semantic-release/changelog",
     {
       "path": "@semantic-release/exec",
-      "cmd": "chmod a+x ./bin/version.sh ${nextRelease.version}"
+      "cmd":
+        "chmod a+x ./bin/version.sh && ./bin/version.sh ${nextRelease.version}"
     },
     {
       "path": "@semantic-release/git",
