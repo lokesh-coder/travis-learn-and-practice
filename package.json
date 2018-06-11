@@ -1,6 +1,6 @@
 {
   "name": "travis-learn-and-practice",
-  "version": "0.0.0-beta.16",
+  "version": "0.0.0-development",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -9,11 +9,13 @@
     "build:prod": "tsc",
     "dev:watch": "tsc --watch",
     "webpack": "webpack --config webpack.config.js",
-    "release": "release-it --preRelease=beta"
+    "release": "release-it --preRelease=beta",
+    "semantic-release": "semantic-release --dry-run",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lokesh-coder/travis-learn-and-practice.git"
+    "url": "https://github.com/lokesh-coder/travis-learn-and-practice.git"
   },
   "author": "lokesh",
   "license": "MIT",
@@ -23,6 +25,7 @@
   "homepage": "https://github.com/lokesh-coder/travis-learn-and-practice#readme",
   "private": true,
   "devDependencies": {
+    "@semantic-release/git": "^5.0.0",
     "@types/chai": "^4.1.3",
     "@types/mocha": "^5.2.1",
     "babel-core": "^6.21.0",
@@ -35,6 +38,8 @@
     "html-webpack-plugin": "^3.2.0",
     "mocha": "^5.2.0",
     "release-it": "^7.4.7",
+    "semantic-release": "^15.5.1",
+    "travis-deploy-once": "^5.0.0",
     "ts-loader": "^4.4.1",
     "ts-node": "^6.1.0",
     "typescript": "^2.9.1",

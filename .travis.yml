@@ -1,13 +1,16 @@
 language: node_js
+cache:
+  directories:
+    - ~/.npm
+    - "node_modules"
+notifications:
+  email: false
 node_js:
-  - "9"
-before_script:
-  - git remote set-url origin git@github.com:lokesh-coder/travis-learn-and-practice.git
-  - "npm install --global typescript"
+  - '9'
 script:
   - "npm run test"
 after_success:
-  - test $TRAVIS_BRANCH = "master" && test $TRAVIS_PULL_REQUEST = "false" && git checkout master && npm run release
+  - npm run travis-deploy-once "npm run semantic-release"
 before_deploy:
   - "npm run webpack"
 deploy:
@@ -17,9 +20,6 @@ deploy:
   github_token: $GITHUB_TOKEN
   on:
     branch: master
-cache:
-  directories:
-    - "node_modules"
 branches:
-  only:
-    - master
+  except:
+    - /^v\d+\.\d+\.\d+$/
