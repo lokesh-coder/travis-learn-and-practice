@@ -10,7 +10,7 @@
     "dev:watch": "tsc --watch",
     "webpack": "webpack --config webpack.config.js",
     "release": "release-it --preRelease=beta",
-    "semantic-release": "semantic-release --dry-run",
+    "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
   "repository": {
