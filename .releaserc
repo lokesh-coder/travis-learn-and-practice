@@ -1,5 +1,5 @@
 {
-  "verifyConditions": ["@semantic-release/git"],
+  "verifyConditions": ["@semantic-release/github", "@semantic-release/git"],
   "prepare": [
     {
       "path": "@semantic-release/git",
