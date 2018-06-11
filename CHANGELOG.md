@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/lokesh-coder/travis-learn-and-practice/compare/v1.3.1...v1.4.0) (2018-06-11)
+
+
+### Bug Fixes
+
+* **build:** travis shell access ([736c0ab](https://github.com/lokesh-coder/travis-learn-and-practice/commit/736c0ab))
+* **shell:** shell command update ([bc9f24c](https://github.com/lokesh-coder/travis-learn-and-practice/commit/bc9f24c))
+
+
+### Features
+
+* **build:** add dependencies ([4d86b8f](https://github.com/lokesh-coder/travis-learn-and-practice/commit/4d86b8f))
+* **version:** add version file ([c620dcb](https://github.com/lokesh-coder/travis-learn-and-practice/commit/c620dcb))
+
 <a name="0.0.0-beta.16"></a>
 # [0.0.0-beta.16](https://github.com/lokesh-coder/travis-learn-and-practice/compare/v0.0.0-beta.15...v0.0.0-beta.16) (2018-06-10)
 
@@ -70,6 +84,3 @@
 
 <a name="0.0.0-beta.4"></a>
 # [0.0.0-beta.4](https://github.com/lokesh-coder/travis-learn-and-practice/compare/v0.0.0-beta.3...v0.0.0-beta.4) (2018-06-10)
-
-
-
