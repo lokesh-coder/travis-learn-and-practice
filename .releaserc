@@ -1,6 +1,6 @@
 {
-  "verifyConditions": ["@semantic-release/github", "@semantic-release/git"],
   "prepare": [
+    "@semantic-release/npm",
     {
       "path": "@semantic-release/git",
       "assets": ["package.json", "package-lock.json"],
