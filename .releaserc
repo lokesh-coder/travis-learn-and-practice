@@ -1,6 +1,11 @@
 {
   "prepare": [
     "@semantic-release/npm",
+    "@semantic-release/changelog",
+    {
+      "path": "@semantic-release/exec",
+      "cmd": "./bin/version.sh ${nextRelease.version}"
+    },
     {
       "path": "@semantic-release/git",
       "assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
