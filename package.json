@@ -9,7 +9,6 @@
     "build:prod": "tsc",
     "dev:watch": "tsc --watch",
     "webpack": "webpack --config webpack.config.js",
-    "release": "release-it --preRelease=beta",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
@@ -39,7 +38,6 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "mocha": "^5.2.0",
-    "release-it": "^7.4.7",
     "semantic-release": "^15.1.11",
     "travis-deploy-once": "^5.0.0",
     "ts-loader": "^4.4.1",
