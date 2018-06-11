@@ -4,11 +4,16 @@
     "@semantic-release/changelog",
     {
       "path": "@semantic-release/exec",
-      "cmd": "./bin/version.sh ${nextRelease.version}"
+      "cmd": "chmod a+x ./bin/version.sh ${nextRelease.version}"
     },
     {
       "path": "@semantic-release/git",
-      "assets": ["package.json", "package-lock.json", "CHANGELOG.md"],
+      "assets": [
+        "package.json",
+        "package-lock.json",
+        "CHANGELOG.md",
+        "src/version.ts"
+      ],
       "message":
         "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
     }
