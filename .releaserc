@@ -1,6 +1,6 @@
 {
   "branch": "master",
-  "dryRun": "true",
+  "dryRun": "false",
   "debug": "true",
   "verifyConditions": [
     {
